@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Sketchy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_story_main">Sketchy | the easy pencil sketcher</string>
+    <string name="goToMain">Sketch now!</string>
+    
+    
+    <string name="aboutText"> Start sketching. Use Sketchy to create your masterpieces and save it for later use.
+        Make pencil sketches, colored sketches or whatever you feel comfortable.
+        Pick from different styles and different pre defined pencils.
+        
+        Start Sketching!!
+        
+        </string>
+    
+</resources> 

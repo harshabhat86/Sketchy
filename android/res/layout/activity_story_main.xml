@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kannadaflag" >
+
+    <Button
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buttonshape"
+        android:onClick="@layout/aboutapp1"
+        android:shadowColor="#707070"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="4"
+        android:text="Start Sketching"
+        android:textColor="#8C0E30"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a1"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buttonshape"
+        android:onClick="@layout/aboutapp1"
+        android:shadowColor="#707070"
+        android:shadowDx="1"
+        android:shadowDy="0"
+        android:shadowRadius="4"
+        android:text="Instructions"
+        android:textColor="#8C0E30"
+        android:textSize="30sp" />
+
+    <com.amazon.device.ads.AdLayout 
+        android:id="@+id/adview" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
